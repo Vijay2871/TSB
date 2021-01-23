@@ -31,7 +31,7 @@ public class WebDriverManager {
 		          break;
 		         case REMOTE : driver = createRemoteDriver();
 		          break;
-		    }
+		 }
 		return driver;
 	
 		 }
@@ -50,7 +50,7 @@ public class WebDriverManager {
 		     break;
 		        case INTERNETEXPLORER : driver = new InternetExplorerDriver();
 		     break;
-		        }
+		 }
 		 
 		        if(FileReaderManager.getInstance().getConfigReader().getBrowserWindowSize()) driver.manage().window().maximize();
 		        driver.manage().timeouts().implicitlyWait(FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(), TimeUnit.SECONDS);
