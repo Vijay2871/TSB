@@ -19,7 +19,7 @@ public class PageObjectManager {
 		 }
 	 
 	 public Homepage getHomepage() {
-			return (homepage == null) ? homepage = new Homepage(driver) : homepage;
+		return (homepage == null) ? homepage = new Homepage(driver) : homepage;
 		}
 	
 	 
@@ -31,7 +31,7 @@ public class PageObjectManager {
 		 }
 	 
 	 public Finalpage getFinalpage() {
-			return (finalpage == null) ? finalpage = new Finalpage(driver) : finalpage;
+		return (finalpage == null) ? finalpage = new Finalpage(driver) : finalpage;
 		}
 
 	
