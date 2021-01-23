@@ -35,7 +35,7 @@ public class Dashboardpage {
 	 }
 	 
 	 public void searchcar() {
-		//driver.manage().timeouts().implicitlyWait(FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(), TimeUnit.SECONDS);
+		
 try {
 	Thread.sleep(3000);
 } catch (InterruptedException e) {
