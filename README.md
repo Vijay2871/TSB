@@ -1,10 +1,10 @@
 # Trade Me Automation Project : What it does ?
 
 Trade Me uses selenium cucumber for writing automation tests in Java. It contains test cases to check the keywords 
-o	Number plate 
-o Kilometres 
-o Body 
-o	Seats 
++	Number plate 
++ Kilometres 
++ Body 
++	Seats 
 
 ## Technology/Framework used 
 + Java is used as a language  
