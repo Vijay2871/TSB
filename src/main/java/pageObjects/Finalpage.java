@@ -25,7 +25,7 @@ public class Finalpage {
 		 WebElement n= driver.findElement(By.xpath("//label[normalize-space()='Number plate']"));
 		 String np= n.getText();
 
-		 driver.manage().timeouts().implicitlyWait(FileReaderManager.getInstance().getConfigReader().getImplicitlyWait(), TimeUnit.SECONDS);
+		
 		
 		 
 	Assert.assertEquals(np,FileReaderManager.getInstance().getConfigReader().getNumberPlate());
